@@ -20,8 +20,15 @@ h1 {
   text-align: center;
 }
 
-header, footer {
+header {
   background-image: linear-gradient(red, yellow);
+  padding-bottom: 1rem;
+  font-family: 'Bangers';
+  border: 1px solid blue;
+}
+
+footer {
+  background-image: linear-gradient(rgba(52, 175, 78, 0.952), rgb(55, 121, 196));
   padding-bottom: 1rem;
   font-family: 'Bangers';
   border: 1px solid blue;
